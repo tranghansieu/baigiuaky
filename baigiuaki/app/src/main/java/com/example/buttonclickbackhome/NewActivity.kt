@@ -14,7 +14,7 @@ class NewActivity : AppCompatActivity() {
         setContentView(R.layout.activity_new)
 
         supportActionBar!!.setDisplayHomeAsUpEnabled(true)
-        supportActionBar!!.setTitle("This is New Activity")
+        supportActionBar!!.setTitle("New Activity")
 
         val btnBack = findViewById<Button>(R.id.btnBack)
         btnBack.setOnClickListener {
