@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#747FC3"
+    android:background="#D0D2DC"
     android:gravity="center"
     android:orientation="vertical"
     tools:context=".NewActivity">
@@ -12,7 +12,8 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@color/purple_700"
+        android:background="#1E82DA"
+        android:fontFamily="@font/abril_fatface"
         android:padding="15dp"
         android:text="This is a new activity"
         android:textColor="@color/white"
@@ -22,8 +23,10 @@
     <Button
         android:id="@+id/btnBack"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="65dp"
         android:backgroundTint="#E53935"
-        android:text="back" />
+        android:fontFamily="@font/abril_fatface"
+        android:text="back"
+        android:textSize="16sp" />
 
 </LinearLayout>
